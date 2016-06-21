@@ -7,7 +7,7 @@ html, body {
     background: url("../images/banner.jpg") no-repeat center center fixed;
 
     font-family: Montserrat-Regular;
-    height:100%;
+    height:400px;
     width:100%;
     position: relative;
     display: table;
@@ -221,7 +221,7 @@ cart{
 
 
 .footer{
-    background-color: #808080;
+    background-color: #000000;
     font-family: cabin;
     color:#FFFFFF;
 
@@ -333,3 +333,15 @@ body {
     line-height: 1.6em;
     font-weight: 400;
 }
+
+
+
+
+
+/* Top Bar */
+
+.mctb-bar, .mctb-response, .mctb-close { background: #408c6c !important; }
+.mctb-bar, .mctb-label, .mctb-close { color: #eeee22 !important; }
+.mctb-button { background: #222222 !important; border-color: #222222 !important; }
+.mctb-email:focus { outline-color: #222222 !important; }
+.mctb-button { color: #ffffff !important; }
