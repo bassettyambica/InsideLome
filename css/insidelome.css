@@ -261,7 +261,7 @@ background-position: center center;
   background-color: :#dfc12a;
 }
 
-.minicart{
+#minicart{
   background:url(../images/minicart.png);
 	background-position: -156px 11px;
 	background-repeat:no-repeat;

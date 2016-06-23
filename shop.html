@@ -5,23 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Insidelome</title>
+    <title>Shop-Insidelome</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/insidelome.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="images/menulogo.jpg" />
 </head>
 
 <body>
+
+  <!-- Top Bar for Subscribe -->
+    <div class="mctb-bar" style="display: block;">
+      <form method=" post" align="center">
+        <label class="mctb-label">Sign-up now - don't miss the fun!</label>
+        <input type="email" name="email" placeholder="Your email address.." class="mctb-email">
+      <!--  <input type="text" name="email_confirm" placeholder="confirm your email" value autocomplete="off" tabindex="-1" class="mctb-email-confirm"> -->
+        <input type="submit" value="Subscribe" class="mctb-button">
+        <input type="hidden" name="_mctb" value="1">
+        <input type="hidden" name="_mctb_timestamp" value="1466294981">
+      </form>
+    </div>
+        <!-- End of-Top Bar for Subscribe -->
+
   <!-- Menu bar -->
     <div class="row navbardiv">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top ">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a class="navbar-brand" href="/Ambica%20Folder/InsideLome/index.html#" style="padding: 5px 50px;"><img src="images/menulogo.jpg" alt="logo" style="height:50px; width:50px"></a> </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/Ambica%20Folder/InsideLome/index.html#">HOME</a></li>
+          <li ><a href="/Ambica%20Folder/InsideLome/index.html#">HOME</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
              <ul class="dropdown-menu">
              <li><a href="/Ambica%20Folder/InsideLome/about.html#">LOME ROOTS</a></li>
@@ -29,16 +46,20 @@
              </ul>
          </li>
           <li class="active"><a href="/Ambica%20Folder/InsideLome/shop.html#">SHOP</a></li>
-          <li><a href="#">CART</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">SUBSCRIPTIONS</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">LEARN</a></li>
+          <li><a href="/Ambica%20Folder/InsideLome/subscription.html#">SUBSCRIPTION</a></li>
+          <li><a href="/Ambica%20Folder/InsideLome/blog.html#">BLOG</a></li>
+          <li><a href="/Ambica%20Folder/InsideLome/learn.html#">LEARN</a></li>
+          <li><a href="/Ambica%20Folder/InsideLome/contact.html#">CONTACT</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+    <li class="minicart"><a href="/Ambica%20Folder/InsideLome/cart.html#" ><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> CART</a></li>
         </ul>
       </div>
     </div>
     </nav>
     </div>
+
+    <!--End of Menu bar -->
 
 
 <!-- Shop page -->
@@ -84,37 +105,46 @@
 
 
 
-    <!-- Footer section -->
-        <footer>
-            <div class="container">
-                <div class="footer">
-                    <div>
-                        <p>Notice : The products and the claims made about specific products have not been evaluated by Food and Drug Administration and are not approved to diagnose, treat, cure or prevent disease. The information provided on Inside Lome Merchant site is for informational purposes only and is not intended as a substitute for advice from your physician.</p>
+  <!-- Footer section -->
+      <footer>
 
-                    </div>
+              <div class="footer">
+                <h1 align="center">Notice</h1>
+                  <div>
+                      <p class="container">The products and the claims made about specific products have not been evaluated by Food and Drug Administration and are not approved to diagnose, treat, cure or prevent disease. The information provided on Inside Lome Merchant site is for informational purposes only and is not intended as a substitute for advice from your physician.</p>
 
-                    <div>
-                        <div style="padding: 40px 10px;">
-                            <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                            <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                            <a href="http://twitter.com/">Twitter</a>
-                            <a href="http://youtube.com/">YouTube</a>
-                            <a href="mailto:">Mail</a>
-                        </div>
-                    </div>
-                    <div>
-                        <p style="padding:10px;"></p>
-                        <p align="center">COPYRIGHT © 2016 LOME</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+                  </div>
+
+                  <div class="container">
+                    <h3 align="center">Join Us On....</h3>
+                      <div style="padding: 40px 10px;" align="center">
+                        <a target="_blank" title="find us on Google" href="https://plus.google.com/u/0/116810885230714908136/about/"><img alt="follow me on google plus" src="images/googleplus30x30.jpeg" border=0></a>
+                        <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/Insidelome/"><img alt="follow me on facebook" src="images/facebook30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on Linkedin" href="http://wwww.linkedin.com/PLACEHOLDER"><img alt="follow me on linkedin" src="images/linkedin30x30.jpg" border=0></a>
+                        <a target="_blank" title="follow me on twitter" href="https://twitter.com/insidelome/"><img alt="follow me on twitter" src="images/twitter_30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on Youtube" href="https://www.youtube.com/channel/UCsH9cC51di66hy6AuEKm6Ew/"><img alt="follow me on youtube" src="images/youtube30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on Instagram" href="https://www.instagram.com/lomeinc/"><img alt="follow me on instagram" src="images/instagram30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on snapchat" href="https://www.snapchat.com/add/insidelome/"><img alt="follow me on snapchat" src="images/snapchat30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on periscope" href="https://www.periscope.tv/insidelome"><img alt="follow me on periscope" src="images/periscope30x30.jpg" border=0></a>
+                        <a target="_blank" title="find us on medium" href="https://medium.com/lom%C3%A9"><img alt="follow me on periscope" src="images/medium30x30.jpg" border=0></a>
+
+                      </div>
+                  </div>
+
+                  <div>
+                      <p style="padding:10px;"></p>
+                      <p align="center">COPYRIGHT &copy; 2016 LOME</p>
+                  </div>
+                  </div>
+
+      </footer>
 
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="js/jquery-1.11.2.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
 
 
-    </body></html>
+  </body></html>
