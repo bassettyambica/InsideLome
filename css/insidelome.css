@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+
 }
 
 .jumbotron{
@@ -35,7 +36,7 @@ html, body {
 
 #homenext{
   background: url("../images/background.jpg") no-repeat center center fixed;
-  height:400px;
+  height:700px;
   width:100%;
   position: relative;
   display: table;
@@ -47,7 +48,7 @@ background-size: cover;
 
 #homenext2{
   background: url("../images/background2.jpg") no-repeat center center fixed;
-  height:500px;
+  height:700px;
   width:100%;
   position: relative;
   display: table;
@@ -59,7 +60,7 @@ background-size: cover;
 
 #homenext3{
   background: url("../images/headimg.jpg") no-repeat center center fixed;
-  height:400px;
+  height:700px;
   width:100%;
   position: relative;
   display: table;
@@ -139,6 +140,7 @@ background-size: cover;
 */
 
 .row-content{
+  
     margin:0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom:1px ridge;
@@ -209,6 +211,11 @@ margin-bottom: 0;
     margin-right: 30px;
 }
 
+
+/* End of Na bar */
+
+
+
 cart{
   align: right;
   float: right;
@@ -228,6 +235,7 @@ cart{
 }
 
 
+/*  shopping */
 .shop{
 
 background-position: center center;
@@ -260,6 +268,9 @@ background-position: center center;
 .products{
   background-color: :#dfc12a;
 }
+
+/* End of shopping */
+
 
 #minicart{
   background:url(../images/minicart.png);
@@ -321,6 +332,7 @@ user agent stylesheet
 div {
     display: block;
 }
+/*
 Inherited from body.gridlock
 body {
     background: #ffffff;
@@ -333,10 +345,7 @@ body {
     line-height: 1.6em;
     font-weight: 400;
 }
-
-
-
-
+*/
 
 /* Top Bar */
 
