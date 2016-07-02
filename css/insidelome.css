@@ -8,7 +8,7 @@ html, body {
     background: url("../images/banner.jpg") no-repeat center center fixed;
 
     font-family: Montserrat-Regular;
-    height:400px;
+    height:600px;
     width:100%;
     position: relative;
     display: table;
@@ -60,7 +60,7 @@ background-size: cover;
 
 #homenext3{
   background: url("../images/headimg.jpg") no-repeat center center fixed;
-  height:700px;
+  height:500px;
   width:100%;
   position: relative;
   display: table;
@@ -140,7 +140,7 @@ background-size: cover;
 */
 
 .row-content{
-  
+
     margin:0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom:1px ridge;
